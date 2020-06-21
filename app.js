@@ -350,13 +350,13 @@
 
 // var a = prompt("Enter your Number");
 // for(var i=1; i <= 10; i++){
-    
+
 //          document.write(a + "X" + i + "=" + a*i + "<br>")
 //         }
 //     for(var i=1; i <= 10; i++){
 //       document.write("5" + "X" + i + "=" + 5*i + "<br>")
 //       }
-    
+
 // Task # 6
 
 // var sub1 = prompt("Enter Subject 1");
@@ -437,7 +437,7 @@
 // if (b++ === 83){ 
 //     alert("given condition for variable b is true") 
 // } 
- 
+
 // var c = 12; 
 // if (c++ === 13){ 
 //     alert("condition 1 is true"); 
@@ -451,14 +451,14 @@
 // if(c === 14){ 
 //     alert("condition 4 is true"); 
 // } 
- 
+
 // var materialCost = 20000; 
 // var laborCost = 2000; 
 // var totalCost = materialCost + laborCost; 
 // if (totalCost === laborCost + materialCost){ 
 //     alert("The cost equals"); 
 // } 
- 
+
 // if (true){ 
 //     alert("True"); 
 // } 
@@ -466,11 +466,11 @@
 // (false){ 
 //     alert("False"); 
 // } 
-  
+
 // if("car" < "cat"){ 
 //     alert("car is smaller than cat"); 
 // } 
- 
+
 // Task # 6
 
 // var sub = prompt("Enter First Sub Marks");
@@ -579,7 +579,7 @@
 // var num1, num2;
 // num1 =  prompt("Input the First integer");
 // num2 =  prompt("Input the second integer");
-                                                 
+
 // if(parseInt(num1, 10) > parseInt(num2, 10)) 
 //   { 
 //   document.write("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
@@ -619,9 +619,125 @@
 
 // Task # 5
 
+// var correctPass = "abc123*+"
+
+// var password =prompt("Enter your password")
+
+// if (password === "" ){
+//     alert("Please enter password")
+// }
+// else if (password === correctPass ){
+//     alert("Yeahhh")
+// }
+// else {
+//     alert("Owhhh! you enter wrong password")
+// }
+
+// Task # 6
+
+    // var greeting;
+    // var hour = 13;
+    // if (hour < 18) {
+    //     greeting = "Good day";
+    //     alert(greeting);
+    // }
+    // else {
+    //     greeting = "Good evening";
+    //     alert(greeting);
+    // }
+
+    // Task # 7
 
 
+// var time = prompt("Enter time in 24 hours clock format (like: 21 = 9pm)");
 
+
+// if (time >= 00 && time < 12) {
+//     alert("Good Morning!");
+// }
+// else if (time >= 12 && time < 17) {
+//     alert("Good Afternoon!");
+// }
+// else if (time >= 17 && time < 21) {
+//     alert("Good Evening!");
+// }
+// else if (time >= 21 && time <= 23) {
+//     alert("Good Night!");
+// }
+// else {
+
+// }
+
+// Chap # 14 - 16  - ARRAYS 
+
+// Task # 1
  
-  
-   
+// var arrayA = []
+// var arrayB = new Array()
+
+// Task # 2
+
+// var objectA = ()
+// var objectB = new Object()
+
+// Task # 3
+
+// var cars = ["Saab", "Volvo", "BMW"];
+// console.log(cars);
+
+// Task # 4
+
+// var arr = ["1", "2", "3"];
+// console.log(arr);
+
+// Task # 5
+
+// var Boolean = (15 > 9);
+// console.log(Boolean)
+
+// Task # 6
+
+// var cars = ["Saab", "Volvo", "BMW"];
+// document.write(cars);
+
+// Task # 7
+
+//  var heading = "QUALIFICATIONS: <br><br> "
+//  document.write(heading.bold())
+
+//  var edu = ["1) SSC <br> " , "2) HSC <br>", "3) BSC <br>" , " 4) BS <br>" , "5) PhD <br>"];
+//  document.write(edu);
+
+// Task # 8
+
+// var students = ["Aman" , "Jahanzaib" , "Nouman"]
+// var score = ["320" , "230" , "480"]
+// var total1 = score[0] / 500 * 100
+// var total2 = score[1] / 500 * 100
+// var total3 = score[2] / 500 * 100
+// document.write("Score of"+" "+students[0]+" "+"is"+" "+score[0]+" "+"Percentage"+" "+total1+"% <br>") 
+// document.write("Score of"+" "+students[1]+" "+"is"+" "+score[1]+" "+"Percentage"+" "+total2+"% <br>") 
+// document.write("Score of"+" "+students[2]+" "+"is"+" "+score[2]+" "+"Percentage"+" "+total3+"% <br>") 
+
+// Task # 9
+
+// var color = ["Red" , "Green" , "Blue"]
+// document.write(color)
+
+// Task # 10
+
+// var scoreStd = [320,230,480,120]
+// document.write("Score of students:"+" "+scoreStd)
+// document.write("<br><br>Ordered Score of students:"+" "+scoreStd.sort(function(a, b){return a-b}));
+
+// Task # 11
+
+var cities = ["Karachi","Lahore","Quetta","Islamabad","Peshawar"]
+
+
+
+
+
+
+
+
