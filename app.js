@@ -705,8 +705,8 @@
 //  var heading = "QUALIFICATIONS: <br><br> "
 //  document.write(heading.bold())
 
-//  var edu = ["1) SSC <br> " , "2) HSC <br>", "3) BSC <br>" , " 4) BS <br>" , "5) PhD <br>"];
-//  document.write(edu);
+//   var edu = ["1) SSC <br> " , "2) HSC <br>", "3) BSC <br>" , " 4) BS <br>" , "5) PhD <br>"];
+//   document.write(edu.join(" "));
 
 // Task # 8
 
@@ -728,16 +728,81 @@
 
 // var scoreStd = [320,230,480,120]
 // document.write("Score of students:"+" "+scoreStd)
-// document.write("<br><br>Ordered Score of students:"+" "+scoreStd.sort(function(a, b){return a-b}));
+// document.write("<br><br>Ordered Score of students:"+" "+scoreStd.reverse(3));
 
 // Task # 11
 
-var cities = ["Karachi","Lahore","Quetta","Islamabad","Peshawar"]
+// var cities = ["Karachi","Lahore", "Islamabad", "Quetta"]
+// var heading = "Cities List: <br><br> "
+// document.write(heading.bold())
+// document.write(cities)
+// var heading = "<br><br> Selected Cities List: <br><br> "
+// document.write(heading.bold())
+// document.write(cities.copyWithin(1,3))
 
+// Task # 12
 
+// var arr = ["This", "is", "my", "cat"]; 
+// var heading = "Array: <br><br> "
+// document.write(heading.bold())
+// document.write(arr)
+// var heading = "<br><br> String: <br><br> "
+// document.write(heading.bold())
+// document.write(arr.join(" "))
 
+// Task # 13
 
+// var devices = ["Keyboard","Mouse","Printer","Monitor"]
+// var heading = "Devices: <br><br> "
+// document.write(heading.bold())
+// document.write(devices)
 
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(0))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(1))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(2))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(3))
+
+// Task # 14
+
+// var devices = ["Keyboard","Mouse","Printer","Monitor"]
+// var heading = "<br><br>Devices: <br><br> "
+// document.write(heading.bold())
+// document.write(devices)
+
+//  var heading = "<br><br> OUT: <br><br> "
+//  document.write(heading.bold())
+//  document.write(devices.pop(0))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(1))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(2))
+
+// var heading = "<br><br> OUT: <br><br> "
+// document.write(heading.bold())
+// document.write(devices.shift(3))
+
+// Task # 15
+
+// var electronic = ["Apple","Samsung","Nokia","Motorola"]
+// document.write("<select>")
+// for(i = 0; i < electronic.length; i++){
+//     document.write("<Option>"+ electronic[i] + "</option>")
+// }
 
 
 
