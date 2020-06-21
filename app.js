@@ -732,13 +732,13 @@
 
 // Task # 11
 
-// var cities = ["Karachi","Lahore", "Islamabad", "Quetta"]
+// var cities = ["Karachi","Lahore", "Islamabad", "Quetta","Peshawar"]
 // var heading = "Cities List: <br><br> "
 // document.write(heading.bold())
 // document.write(cities)
 // var heading = "<br><br> Selected Cities List: <br><br> "
 // document.write(heading.bold())
-// document.write(cities.copyWithin(1,3))
+// document.write(cities.slice(2,4))
 
 // Task # 12
 
@@ -804,5 +804,76 @@
 //     document.write("<Option>"+ electronic[i] + "</option>")
 // }
 
+// Chap # 17 - 20  - ARRAYS AND LOOP 
 
+// Task # 1
+
+// var myArray = [[],[],[]];
+
+// Task # 2
+
+// var myArray = [
+//     ["cats","dogs","monkeys","horses <br>"],
+//     ["apples","oranges","pears","bananas"]
+// ];
+// document.write(myArray.join(" "))
+
+// Task # 3
+
+// for (var i = 1; i <= 10; i++) {
+//     document.write(i);
+//     document.write("<br>");    
+//    }
+
+// Task # 4
+
+// Task # 5
+
+// var fruits = ["apple <br>", "banana <br>", "mango <br>", "orange <br>", "strawberry <br>"]
+// document.write(fruits.join(" ")) 
+
+
+
+
+//     var fruits = ["Banana", "Orange", "Apple", "Mango"];
+//     var a = fruits.indexOf("Apple");{
+//         document.write("<br>Elements at index"+" "+ a + " " + "is"+ " " +fruits[2] )
+//     }
+//     var a = fruits.indexOf("Orange");{
+//         document.write("<br>Elements at index"+" "+ a + " " + "is"+ " " +fruits[1] )
+//     }
+//     var a = fruits.indexOf("Mango");{
+//         document.write("<br>Elements at index"+" "+ a + " " + "is"+ " " +fruits[3] )
+//     }
+//     var a = fruits.indexOf("Banana");{
+//         document.write("<br>Elements at index"+" "+ a + " " + "is"+ " " +fruits[0] )
+//     }
+    
+// Task # 6
+
+// var heading = "Countings: <br><br> "
+// document.write(heading.bold())
+// var num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+// document.write(num)
+// var heading = "<br><br> Reverse Countings: <br><br> "
+// document.write(heading.bold())
+// document.write(num.reverse())
+
+
+// function printOdd(num) {
+//     for (let i=1; i<num; i++) {
+//       if(i % 2 !== 0) {
+//         console.log(i);
+//       }
+//     }
+//   }
+
+
+//   function printEven(num) {
+//     for (let i=1; i<num; i++) {
+//       if(i % 2 === 0) {
+//         console.log(i);
+//       }
+//     }
+//   }
 
