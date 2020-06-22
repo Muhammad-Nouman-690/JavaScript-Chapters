@@ -827,6 +827,15 @@
 
 // Task # 4
 
+// var a = prompt("Enter a Number to show its multiplication table");
+// var b = prompt("Enter length multiplication table")
+// var heading = ("Multipication table of"+" "+ a + " " + "length"+ " " + "<br><br>")
+// document.write(heading.bold())
+// for(var i=1; i <= b; i++){
+
+//          document.write(a + "X" + i + "=" + a*i + "<br>")
+//         }
+
 // Task # 5
 
 // var fruits = ["apple <br>", "banana <br>", "mango <br>", "orange <br>", "strawberry <br>"]
@@ -859,7 +868,6 @@
 // document.write(heading.bold())
 // document.write(num.reverse())
 
-
 // function printOdd(num) {
 //     for (let i=1; i<num; i++) {
 //       if(i % 2 !== 0) {
@@ -875,5 +883,39 @@
 //         console.log(i);
 //       }
 //     }
+//   }
+
+// Task # 7
+
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"] 
+// var search =prompt("Enter search value")
+// if(items.indexOf(search) !== -1){
+//     alert("Yes"+ " " + search + " " + "is available")
+// } else {
+//     alert("No"+ " " + search + " " + "is not available")
+// }
+
+// Task # 8
+
+// var a = Math.max(24, 53, 78, 91, 12)
+// var heading = "<br><br> Largest Number: <br><br> "
+// document.write(heading.bold())
+// document.write(a)
+
+// Task # 9
+
+// var a = Math.min(24, 53, 78, 91, 12)
+// var heading = "<br><br> Smallest Number: <br><br> "
+// document.write(heading.bold())
+// document.write(a)
+
+// Task # 10
+
+// var series;
+// for ( var i = 5; i <= 100; i++);
+// {
+//   if ( i%5 === 0)
+//   {
+//     document.write(series);
 //   }
 
