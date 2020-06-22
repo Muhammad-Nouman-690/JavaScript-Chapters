@@ -919,3 +919,52 @@
 //     document.write(series);
 //   }
 
+// Chap # 21 - 25  - STRING METHODS
+
+// Task # 1
+
+// var firstName =prompt("Enter your First Name")
+// var lastName =prompt("Enter your Last Name")
+// var fullName = firstName +" "+lastName;
+// alert("Welcome to Java World"+" "+fullName) 
+
+// Task # 2
+
+// var n =prompt("Enter your favourite mobile phone model")
+// var num = n.length
+// document.write("Length of string:"+" "+ num) 
+
+// Task # 3
+
+// var n = "Pakistani"
+// var m = n.indexOf("n");
+// document.write("Index of n"+" "+ m)
+
+// Task # 4
+
+// var n = "Hello world"
+// var m = n.lastIndexOf("l");
+// document.write("Last Index of 'l' :"+" "+ m)
+
+// Task # 5
+
+// var n = "Pakistani"
+// var m = n.indexOf("n");
+// var o = n.charAt(7)
+// document.write("<br> String:"+":"+ n)
+// document.write("<br>Char at Index "+" "+ m +":"+o)
+
+// Task # 6
+
+// var firstName =prompt("Enter your First Name")
+// var lastName =prompt("Enter your Last Name")
+// var fullName = firstName.concat(lastName);
+// document.write("Welcome to Java World"+" "+fullName) 
+
+// Task # 7
+
+var city = "Hyderabad"
+var res = str.slice(0,4)
+document.write(city)
+document.write("After Replacement"+":"+res)
+
