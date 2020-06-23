@@ -963,8 +963,66 @@
 
 // Task # 7
 
-var city = "Hyderabad"
-var res = str.slice(0,4)
-document.write(city)
-document.write("After Replacement"+":"+res)
+// var city1 = "Hyderabad"
+// var city = "Hyderabad"
+// var res = city.replace("Hyder","Islam")
+// document.write("City:"+" "+city1)
+// document.write("<br>After Replacement:"+" "+res)
+
+// Task # 8
+
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// var change = message.replace(/and/g,"&")
+// document.write(change)
+
+// Task # 9
+
+// Task # 10
+
+// var caps =prompt("enter your value")
+// var res = caps.toUpperCase()
+// document.write(res)
+
+// Task # 11
+
+// var user =prompt("javascript")
+// var rep = user.toLocaleUpperCase()
+// document.write(rep) 
+
+// Task # 12
+
+// var num = 35.36;
+// var n = num.toString();
+// document.write(n)
+
+// Task # 13
+
+
+// Task # 14
+
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"] 
+// var search =prompt("Enter search value")
+// var res = search.toLowerCase()
+// if(items.indexOf(search) !== -1){
+//     alert("Yes"+ " " + search + " " + "is available")
+// } else {
+//     alert("No"+ " " + search + " " + "is not available")
+// }
+
+// Task # 15
+
+// Task # 16
+
+// var university = "University of Karachi"
+// var res = university.split("")
+// document.write(res) 
+
+// Task # 17
+
+// var userInput = "Pakistan"
+// var res = userInput.charAt(7)
+// document.write(res)
+
+// Task # 18
+
 
