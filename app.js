@@ -1055,9 +1055,39 @@
 
 // Task # 4
 
-// var dice = Math.random()
-// document.write("Random Dice value "+":"+ dice)
+// var dice = Math.random() * 6
+// var cont = dice.toFixed()
+// document.write("Random Dice value "+":"+ cont)
 
+// Task # 5
 
+// var heads =prompt("Enter heads name")
+// var tails =prompt("Enter tails name")  
+// var res = Math.random() * 2
+// var cont = Math.floor(res)
+// if (cont === 0){
+//     document.write("heads "+ heads + " win toss")
+// } else{
+//     document.write("tails "+ tails + " win toss")
+// }
+
+// Task # 6
+
+// var dice = Math.random() * 100
+// var cont = dice.toFixed()
+// document.write("Random number between 1 and 100 "+":"+ cont)
+
+// Task # 7
+
+// var userInput =prompt("Enter your weight")
+// var res = userInput.toString()
+// document.write("The weight of user is " + res)
+
+// Task # 8
+
+// var userInput =prompt("Enter a number between 1 and 10")
+// var secret = Math.random() * 10
+// var cont = userInput.toFixed(secret)
+// document.write("Random number between 1 and 10 "+":"+ cont)
 
 
