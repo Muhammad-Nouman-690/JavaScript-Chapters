@@ -1025,4 +1025,39 @@
 
 // Task # 18
 
+// var str = "The quick brown fox jumps over the lazy dog"; 
+// var res = str.match(/the/gi);
+// document.write(res)
+
+// Chap # 26 - 30  - MATH METHODS
+
+// Task # 1
+
+// var num =prompt("Enter your number")
+// document.write("number:"+" "+num)
+// document.write("<br> round off value:"+" "+Math.round(num))
+// document.write("<br> floor value:"+" "+Math.floor(num))
+// document.write("<br> ceil value:"+" "+Math.ceil(num))
+
+// Task # 2
+
+// var num =prompt("Enter your number")
+// document.write("number:"+" "+num)
+// document.write("<br> round off value:"+" "+Math.round(num))
+// document.write("<br> floor value:"+" "+Math.floor(num))
+// document.write("<br> ceil value:"+" "+Math.ceil(num))
+
+// Task # 3
+
+// var num =prompt("Enter you negative value")
+// var res = Math.abs(num)
+// document.write("The absolute value of"+num+" "+"is"+" "+res)
+
+// Task # 4
+
+// var dice = Math.random()
+// document.write("Random Dice value "+":"+ dice)
+
+
+
 
