@@ -1090,4 +1090,109 @@
 // var cont = userInput.toFixed(secret)
 // document.write("Random number between 1 and 10 "+":"+ cont)
 
+// Chap # 31 - 34  - DATE METHODS
+
+// Task # 1
+
+// var res = new Date
+// document.write(res)
+
+// Task # 2
+
+// var res = new Date
+// var char = res.toString()
+// var month = char.slice(4,7)
+// document.write("Current month: " + month)
+
+// Task # 3
+
+// var res = new Date
+// var char = res.toString()
+// var month = char.slice(0,3)
+// alert("Today is: " + month)
+
+// Task # 4
+
+// var res = new Date
+// document.write(res)
+// if (res.getDay() === 0 && res.getDay() === 6 ){
+//     alert("It's Fun day!")
+// } else{
+//     alert("It's Working day!")
+// }
+
+// Task # 5
+
+// var res = new Date
+// document.write(res)
+// if (res.getDate() <= 15){
+//     alert("First Fifteen Days of the month")
+// } else if (res.getDate() >= 15){
+//     alert("Last Fifteen Days of the month")
+// }
+
+// Task # 6
+
+// var res = new Date
+// document.write(res)
+// document.write("<br>" + "Elapsed milliseconds since january 1, 1970: " +res.getTime())
+// document.write("<br>" + "Elapsed miniyues since january 1, 1970: " +res.getTime() / 1000*60*60 )
+
+// Task # 7
+
+// var res = new Date
+// document.write(res)
+// if (res.getHours() <= 12){
+//     alert("It's AM")
+// } else if (res.getHours() >= 13){
+//     alert("It's PM")
+// }
+
+// Task # 8
+
+// var d = new Date(); 
+// d.setMonth(11);
+// d.setDate(31)
+// document.write("Later date: "+ d)
+ 
+// Task # 9
+
+// Task # 10
+
+// Task # 11
+
+// Task # 12
+
+// Task # 13
+
+// var dob = new Date(prompt("ENTER YOUR DATE OF BIRTH" , "jan 1, 1970"))
+// var dobmili = dob.getTime();
+// var today = new Date();
+// var taodaymili = today.getTime()
+// var diff = taodaymili - dobmili;
+// var agecal = Math.floor(diff/(1000*60*60*24*30*12))
+// document.write("Your age is "+ agecal);
+
+// Task # 14
+
+// var CustomerName = prompt("Enter customer name")
+// var CurrentMonth = prompt("Enter current Month")
+// var NoUnits =  + prompt("Enter Number of Units")
+// var ChargePerUnits = + prompt("Enter charge per units")
+// var LatePaymentSurcharge = + prompt("Late Payment Surcharge ")
+ 
+// var res =  NoUnits * ChargePerUnits
+// var rep =  LatePaymentSurcharge + (res)
+
+// document.write("Customer Name: "+ CustomerName)
+// document.write("<br>Month: "+ CurrentMonth)
+// document.write("<br>Number of units: "+ NoUnits)
+// document.write("<br>Charge per units: "+ ChargePerUnits)
+// document.write("<br>Net Amount Payable (within Due Date) " + res)
+// document.write("<br>Gross Amount Payable (after Due Date) " + rep)
+
+
+  
+ 
+
 
