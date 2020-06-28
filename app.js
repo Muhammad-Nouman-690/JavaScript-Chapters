@@ -997,6 +997,12 @@
 
 // Task # 13
 
+// var userName =prompt("Enter username")
+// for(var i = 0; i < userName.length; i++){
+// if (userName.charCodeAt() === 33  ){
+//     alert("Invalid username")
+// } else alert("valid username")
+// }
 
 // Task # 14
 
@@ -1191,8 +1197,67 @@
 // document.write("<br>Net Amount Payable (within Due Date) " + res)
 // document.write("<br>Gross Amount Payable (after Due Date) " + rep)
 
+// Chap # 35 - 38  - FUNCTIONS
 
-  
- 
+// Task # 1
+
+// function date(){
+//     document.write(new Date()); 
+// } 
+// date();
+
+// Task # 2
+
+// function name(){
+//    var firstName =prompt("Enter first name");
+//    var lastName =prompt("Enter last name");
+//    var greet = firstName + " " + lastName
+//    document.write("Hello java world! " + greet);
+// } 
+// name();
+
+// Task # 3
+
+// function num(a,b){
+//     return a + b 
+// }
+// var a =+ prompt("Enter 1st num")
+// var b =+ prompt("Enter 2st num")
+// document.write(num(a,b))
+
+// Task # 4
+
+// Task # 5
+
+// function square() {
+//     return Math.pow(9,2)
+         
+//   }
+//   document.write(square())
+
+// Task # 6
+
+// function factorial() {
+//     return   5*4*3*2*1
+         
+//   }
+//   alert(factorial())
+
+// Task # 7
+
+// function myFunction() {
+//     var start =prompt("Enter start num")
+//     var end =prompt("Enter end num")
+//     for (i = start; i <= end; i++) {
+//     var text = "The number is " + i + "<br>";
+//     document.write(text)    
+// }
+//   }
+//   myFunction();
+
+// Task # 8
+
+// Task # 9
+
 
 
