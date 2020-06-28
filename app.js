@@ -1259,5 +1259,28 @@
 
 // Task # 9
 
+// function area() {
+//     var height =prompt("Enter height")
+//     var width =prompt("Enter width")
+//     var area = height*width
+//     document.write("The value of area: " + area)
+// }
+// area();
+
+// Task # 10
+ 
+function string() {
+     var word =prompt("Enter word")
+    if (word === word.reverse()) {
+        alert(word + ' is palindrome.');
+    }
+    else {
+        alert(word + ' is not palindrome.');
+    }
+    document.write(word)
+}
+string()
+
+
 
 
